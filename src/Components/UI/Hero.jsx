@@ -1,6 +1,7 @@
 import React from 'react'
 import heroImg from '../../assets/images/male.jpg'
 import CountUp from 'react-countup'
+import Typed from 'react-typed'
 
 const Hero = () => {
   return (
@@ -23,7 +24,13 @@ const Hero = () => {
             >
               I'm Dunkwu Precious
             </h1>
-
+            <Typed
+              className='md:text-4xl text-primaryColor sm:text-4xl text-xl font-[400] '
+              strings={['Software Engineer.', 'FrontEnd Developer.']}
+              typeSpeed={120}
+              backSpeed={140}
+              loop
+            />
             <p
               data-aos='fade-left'
               data-aos-duration='1800'

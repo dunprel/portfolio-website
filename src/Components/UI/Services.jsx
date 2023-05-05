@@ -8,6 +8,7 @@ import reactjs from '../../assets/images/New/reactjs.svg'
 import nodejs from '../../assets/images/New/node.svg'
 import tailwind from '../../assets/images/New/tailwind css.png'
 import sanity from '../../assets/images/New/sanity.png'
+import Typed from 'react-typed'
 
 const Services = () => {
   return (
@@ -16,6 +17,13 @@ const Services = () => {
         <div className='text-center'>
           <h2 className='text-headingColor font-[600] text-[2.4rem] mb-5'>
             My{' '}
+            <Typed
+              className='md:text-4xl text-primaryColor font-[600] text-[2.4rem]'
+              strings={['Services.', 'Specialization.']}
+              typeSpeed={120}
+              backSpeed={140}
+              loop
+            />
           </h2>
 
           <p className='lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7 pb-[1rem]'>

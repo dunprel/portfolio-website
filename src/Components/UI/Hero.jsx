@@ -1,7 +1,8 @@
 import React from 'react'
 import heroImg from '../../assets/images/male.jpg'
 import CountUp from 'react-countup'
-import Typed from 'react-typed'
+import Typewriter from 'typewriter-effect'
+
 const Hero = () => {
   return (
     <section className='pt-0' id='about'>
@@ -23,13 +24,15 @@ const Hero = () => {
             >
               I'm Dunkwu Precious
             </h1>
-            <Typed
-              className='md:text-4xl text-primaryColor sm:text-4xl text-xl font-[400] '
-              strings={['Software Engineer.', 'FrontEnd Developer.']}
-              typeSpeed={120}
-              backSpeed={140}
-              loop
-            />
+            <span className='md:text-4xl text-primaryColor sm:text-4xl text-xl font-[400] '>
+              <Typewriter
+                options={{
+                  strings: ['Software Engineer.', 'FrontEnd Developer.'],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
             <p
               data-aos='fade-left'
               data-aos-duration='1800'

@@ -9,7 +9,6 @@ import Hero from './Components/UI/Hero'
 import Services from './Components/UI/Services'
 import Projects from './Components/UI/Portfolio'
 import Contact from './Components/UI/Contact'
-import Call from './Components/UI/Call'
 
 function App() {
   useEffect(() => {
@@ -23,7 +22,7 @@ function App() {
       <Hero />
       <Services />
       <Projects />
-      <Call />
+
       <Footer />
     </>
   )

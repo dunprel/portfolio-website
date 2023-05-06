@@ -28,6 +28,11 @@ const Portfolio = () => {
       setPortfolios(filteredData)
     }
 
+    if (selectTab == 'Html') {
+      const filteredData = data.filter((item) => item.category == 'Html')
+      setPortfolios(filteredData)
+    }
+
     if (selectTab == 'Wordpress') {
       const filteredData = data.filter((item) => item.category == 'Wordpress')
       setPortfolios(filteredData)
@@ -57,6 +62,13 @@ const Portfolio = () => {
               className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'
             >
               ReactJS
+            </button>
+
+            <button
+              onClick={() => setSelectTab('Html')}
+              className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'
+            >
+              HTML
             </button>
 
             <button

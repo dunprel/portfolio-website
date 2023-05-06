@@ -1,72 +1,72 @@
-import portfolioImg01 from '../images/portfolio-01.jpg'
-import portfolioImg02 from '../images/portfolio-02.jpg'
-import portfolioImg03 from '../images/portfolio-03.jpg'
-import portfolioImg04 from '../images/portfolio-04.jpg'
-import portfolioImg05 from '../images/portfolio-05.jpg'
-import portfolioImg06 from '../images/portfolio-06.jpg'
-import portfolioImg07 from '../images/portfolio-07.jpg'
+import portfolioImg01 from '../images/Portfolio/CarRenter.png'
+import portfolioImg02 from '../images/Portfolio/GymFit.png'
+import portfolioImg03 from '../images/Portfolio/TeaStation.png'
+import portfolioImg04 from '../images/Portfolio/html-dashboard.png'
+import portfolioImg05 from '../images/Portfolio/admin-dashboard.png'
+import portfolioImg06 from '../images/Portfolio/anb.png'
+import portfolioImg07 from '../images/Portfolio/pennek.png'
 
 const portfolios = [
   {
     id: '01',
     imgUrl: portfolioImg01,
     category: 'React',
-    title: 'Finance Technology Website',
+    title: 'Car Renter',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
+      'A responssive Car Renter is a platform where users can log on a search for their preferred choice of car to rent. It has a search engine.',
+    technologies: ['React', 'Tailwind css', 'JavaScript'],
     siteUrl: '#',
   },
   {
     id: '02',
-    imgUrl: portfolioImg04,
-    category: 'Wordpress',
-    title: 'Video Conference Website',
+    imgUrl: portfolioImg02,
+    category: 'React',
+    title: 'Fitness Website',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
+      'FitBody is a gym fit website where users can view their packages and get more information',
+    technologies: ['React', 'Css', 'Javascript', 'SwiperJS', 'Aos Animation'],
+    siteUrl: 'https://fitbody-gym.vercel.app/',
   },
   {
     id: '03',
-    imgUrl: portfolioImg02,
-    category: 'Wordpress',
-    title: 'Multimedia Sharing Website',
+    imgUrl: portfolioImg03,
+    category: 'Html',
+    title: 'A Coffe Store Website',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
+      'Tea Station is a responsive Website that develiers the best Coffe. It lists all their services, products and contact information. All animations was developed with Vanilla Javascript',
+    technologies: ['Html5', 'Css', 'Javascript'],
+    siteUrl: 'https://dunprel-teastation.netlify.app/',
   },
   {
     id: '04',
-    imgUrl: portfolioImg05,
-    category: 'React',
-    title: 'Landing Page',
+    imgUrl: portfolioImg04,
+    category: 'Html',
+    title: 'Admin Dashboard',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
+      'A responsive Admin Dashboard built with Pure HTML5 and CSS. It has a theme switcher that switches the background color with just a button.',
+    technologies: ['Html5', 'Css', 'Javascript'],
+    siteUrl: 'https://html-admin-dashboard-one.vercel.app/',
   },
   {
     id: '05',
-    imgUrl: portfolioImg03,
-    category: 'React',
-    title: 'Landing Page',
+    imgUrl: portfolioImg05,
+    category: 'Html',
+    title: 'Admin Dashboard',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
+      'A responsive Admin Dashboard built with Pure HTML5 and CSS. It has a collapsed Sidebar buttion and effect.',
+    technologies: ['Html5', 'Css', 'Javascript'],
+    siteUrl: 'https://responsive-html-admin-dashboard.vercel.app/',
   },
 
   {
     id: '06',
     imgUrl: portfolioImg06,
     category: 'Wordpress',
-    title: 'Online Therapy Website',
+    title: 'A Furniture Company Webiste',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
+      'A responsive Wesbtie to showcase the companys information and projects. Built with Wordpress',
+    technologies: ['Wordpress', 'Elementor Plugin'],
+    siteUrl: 'https://anbmsolutions.com/',
   },
   {
     id: '07',
@@ -74,79 +74,9 @@ const portfolios = [
     category: 'React',
     title: 'Appointment Booking Website',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
-  },
-  {
-    id: '08',
-    imgUrl: portfolioImg01,
-    category: 'React',
-    title: 'Finance Technology Website',
-    description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
-  },
-  {
-    id: '09',
-    imgUrl: portfolioImg02,
-    category: 'Wordpress',
-    title: 'Video Conference Website',
-    description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
-  },
-  {
-    id: '10',
-    imgUrl: portfolioImg03,
-    category: 'Wordpress',
-    title: 'File Sharing Website',
-    description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
-  },
-  {
-    id: '11',
-    imgUrl: portfolioImg04,
-    category: 'React',
-    title: 'Landing Page',
-    description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
-  },
-  {
-    id: '12',
-    imgUrl: portfolioImg05,
-    category: 'React',
-    title: 'Landing Page',
-    description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
-  },
-  {
-    id: '13',
-    imgUrl: portfolioImg06,
-    category: 'React',
-    title: 'Online Therapy Website',
-    description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
-  },
-  {
-    id: '14',
-    imgUrl: portfolioImg07,
-    category: 'Wordpress',
-    title: 'Appointment Booking Website',
-    description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!',
-    technologies: ['React', 'Tailwind css', 'Node.js', 'MongoDB'],
-    siteUrl: '#',
+      'A responsive Website for a real estate development company to showcase projects and enrol agents.',
+    technologies: ['React', 'Tailwind css', 'React-typerEffect'],
+    siteUrl: 'https://pennek.com/',
   },
 ]
 

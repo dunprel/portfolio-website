@@ -107,7 +107,8 @@ const Hero = () => {
 
               <span>
                 <a
-                  href='#linkedin'
+                  href='https://drive.google.com/file/d/1ZcVeVQH7CYCOVi_PVIgsqEGr17PiEoNY/view?usp=share_link'
+                  target='_blank'
                   className='text-smallTextColor text-[18px] font-[600]'
                 >
                   <i class='ri-contacts-book-line'></i>

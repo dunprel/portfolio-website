@@ -5,6 +5,7 @@ import portfolioImg04 from '../images/Portfolio/html-dashboard.png'
 import portfolioImg05 from '../images/Portfolio/admin-dashboard.png'
 import portfolioImg06 from '../images/Portfolio/anb.png'
 import portfolioImg07 from '../images/Portfolio/pennek.png'
+import portfolioImg08 from '../images/Portfolio/coin-info.png'
 
 const portfolios = [
   {
@@ -27,6 +28,7 @@ const portfolios = [
     technologies: ['React', 'Css', 'Javascript', 'SwiperJS', 'Aos Animation'],
     siteUrl: 'https://fitbody-gym.vercel.app/',
   },
+
   {
     id: '03',
     imgUrl: portfolioImg03,
@@ -37,16 +39,18 @@ const portfolios = [
     technologies: ['Html5', 'Css', 'Javascript'],
     siteUrl: 'https://dunprel-teastation.netlify.app/',
   },
+
   {
     id: '04',
-    imgUrl: portfolioImg04,
-    category: 'Html',
-    title: 'Admin Dashboard',
+    imgUrl: portfolioImg08,
+    category: 'React',
+    title: 'Coin-info',
     description:
-      'A responsive Admin Dashboard built with Pure HTML5 and CSS. It has a theme switcher that switches the background color with just a button.',
-    technologies: ['Html5', 'Css', 'Javascript'],
-    siteUrl: 'https://html-admin-dashboard-one.vercel.app/',
+      'Coin Info is a responsive Web App that allows users to search for information about various cryptocurrencies in real-time. The Web App is designed to provide users with accurate and up-to-date information about the price, market cap, trading volume, and other key metrics of cryptocurrencies..',
+    technologies: ['React', 'SCSS', 'React-typerEffect'],
+    siteUrl: 'https://coin-infos.vercel.app/',
   },
+
   {
     id: '05',
     imgUrl: portfolioImg05,
@@ -77,6 +81,17 @@ const portfolios = [
       'A responsive Website for a real estate development company to showcase projects and enrol agents.',
     technologies: ['React', 'Tailwind css', 'React-typerEffect'],
     siteUrl: 'https://pennek.com/',
+  },
+
+  {
+    id: '08',
+    imgUrl: portfolioImg04,
+    category: 'Html',
+    title: 'Admin Dashboard',
+    description:
+      'A responsive Admin Dashboard built with Pure HTML5 and CSS. It has a theme switcher that switches the background color with just a button.',
+    technologies: ['Html5', 'Css', 'Javascript'],
+    siteUrl: 'https://html-admin-dashboard-one.vercel.app/',
   },
 ]
 

@@ -8,6 +8,7 @@ import reactjs from '../../assets/images/New/reactjs.svg'
 import nodejs from '../../assets/images/New/node.svg'
 import tailwind from '../../assets/images/New/tailwind css.png'
 import sanity from '../../assets/images/New/sanity.png'
+import typescript from '../../assets/images/New/typescript-original.svg'
 import TypeEffect from 'react-typewriter-effect'
 import Typewriter from 'typewriter-effect'
 
@@ -38,6 +39,7 @@ const Services = () => {
               <img className='rounded' src={html5} alt='' />
               <img className='rounded' src={css} alt='' />
               <img className='rounded' src={javascript} alt='' />
+
               <img className='rounded' src={reactjs} alt='' />
               <img className='rounded' src={nodejs} alt='' />
             </div>

@@ -1,11 +1,12 @@
 import portfolioImg01 from '../images/Portfolio/CarRenter.png'
 import portfolioImg02 from '../images/Portfolio/GymFit.png'
 import portfolioImg03 from '../images/Portfolio/TeaStation.png'
-import portfolioImg04 from '../images/Portfolio/html-dashboard.png'
+import portfolioImg04 from '../images/Portfolio/coin-info.png'
 import portfolioImg05 from '../images/Portfolio/admin-dashboard.png'
-import portfolioImg06 from '../images/Portfolio/anb.png'
+import portfolioImg06 from '../images/Portfolio/ToDo-app.png'
 import portfolioImg07 from '../images/Portfolio/pennek.png'
-import portfolioImg08 from '../images/Portfolio/coin-info.png'
+import portfolioImg08 from '../images/Portfolio/html-dashboard.png'
+import portfolioImg09 from '../images/Portfolio/anb.png'
 
 const portfolios = [
   {
@@ -16,7 +17,7 @@ const portfolios = [
     description:
       'A responssive Car Renter is a platform where users can log on a search for their preferred choice of car to rent. It has a search engine.',
     technologies: ['React', 'Tailwind css', 'JavaScript'],
-    siteUrl: '#',
+    siteUrl: 'car-rental-dunprel.vercel.app',
   },
   {
     id: '02',
@@ -42,7 +43,7 @@ const portfolios = [
 
   {
     id: '04',
-    imgUrl: portfolioImg08,
+    imgUrl: portfolioImg04,
     category: 'React',
     title: 'Coin-info',
     description:
@@ -65,13 +66,21 @@ const portfolios = [
   {
     id: '06',
     imgUrl: portfolioImg06,
-    category: 'Wordpress',
-    title: 'A Furniture Company Webiste',
+    category: 'React',
+    title: 'Todo List App',
     description:
-      'A responsive Wesbtie to showcase the companys information and projects. Built with Wordpress',
-    technologies: ['Wordpress', 'Elementor Plugin'],
-    siteUrl: 'https://anbmsolutions.com/',
+      'A responsive To-Do list App with theme switcher to organize your tasks with the following data: title, description, date, mark as complete and mark as important.',
+    technologies: [
+      'Html5',
+      'Tailwind CSS',
+      'Typescript',
+      'Redux Toolkit',
+      'ReactJS',
+      'React Router DOM',
+    ],
+    siteUrl: 'https://to-do-app-dunprel.vercel.app/',
   },
+
   {
     id: '07',
     imgUrl: portfolioImg07,
@@ -85,13 +94,24 @@ const portfolios = [
 
   {
     id: '08',
-    imgUrl: portfolioImg04,
+    imgUrl: portfolioImg08,
     category: 'Html',
     title: 'Admin Dashboard',
     description:
       'A responsive Admin Dashboard built with Pure HTML5 and CSS. It has a theme switcher that switches the background color with just a button.',
     technologies: ['Html5', 'Css', 'Javascript'],
     siteUrl: 'https://html-admin-dashboard-one.vercel.app/',
+  },
+
+  {
+    id: '09',
+    imgUrl: portfolioImg09,
+    category: 'Wordpress',
+    title: 'A Furniture Company Webiste',
+    description:
+      'A responsive Wesbtie to showcase the companys information and projects. Built with Wordpress',
+    technologies: ['Wordpress', 'Elementor Plugin'],
+    siteUrl: 'https://anbmsolutions.com/',
   },
 ]
 

@@ -15,9 +15,9 @@ const portfolios = [
     category: 'React',
     title: 'Car Renter',
     description:
-      'A responssive Car Renter is a platform where users can log on a search for their preferred choice of car to rent. It has a search engine.',
+      'A Responsive Car Renter is a platform where users can log on a search for their preferred choice of car to rent. It has a search engine.',
     technologies: ['React', 'Tailwind css', 'JavaScript'],
-    siteUrl: 'car-rental-dunprel.vercel.app',
+    siteUrl: 'https://car-rental-dunprel.vercel.app',
   },
   {
     id: '02',
@@ -25,7 +25,7 @@ const portfolios = [
     category: 'React',
     title: 'Fitness Website',
     description:
-      'FitBody is a gym fit website where users can view their packages and get more information',
+      'FitBody is a gym fit website where users can view their packages and get more information,
     technologies: ['React', 'Css', 'Javascript', 'SwiperJS', 'Aos Animation'],
     siteUrl: 'https://fitbody-gym.vercel.app/',
   },
@@ -36,7 +36,7 @@ const portfolios = [
     category: 'Html',
     title: 'A Coffe Store Website',
     description:
-      'Tea Station is a responsive Website that develiers the best Coffe. It lists all their services, products and contact information. All animations was developed with Vanilla Javascript',
+      'Tea Station is a responsive Website that delivers the best coffee. It lists all their services, products and contact information. All animations was developed with Vanilla Javascript',
     technologies: ['Html5', 'Css', 'Javascript'],
     siteUrl: 'https://dunprel-teastation.netlify.app/',
   },
@@ -47,7 +47,7 @@ const portfolios = [
     category: 'React',
     title: 'Coin-info',
     description:
-      'Coin Info is a responsive Web App that allows users to search for information about various cryptocurrencies in real-time. The Web App is designed to provide users with accurate and up-to-date information about the price, market cap, trading volume, and other key metrics of cryptocurrencies..',
+      'Coin Info is a responsive Web App that allows users to search for information about various cryptocurrencies in real time. The Web App is designed to provide users with accurate and up-to-date information about the price, market cap, trading volume, and other key metrics of cryptocurrencies..',
     technologies: ['React', 'SCSS', 'React-typerEffect'],
     siteUrl: 'https://coin-infos.vercel.app/',
   },
@@ -58,7 +58,7 @@ const portfolios = [
     category: 'Html',
     title: 'Admin Dashboard',
     description:
-      'A responsive Admin Dashboard built with Pure HTML5 and CSS. It has a collapsed Sidebar buttion and effect.',
+      'A responsive Admin Dashboard built with Pure HTML5 and CSS. It has a collapsed Sidebar button and effect.',
     technologies: ['Html5', 'Css', 'Javascript'],
     siteUrl: 'https://responsive-html-admin-dashboard.vercel.app/',
   },
@@ -98,7 +98,7 @@ const portfolios = [
     category: 'Html',
     title: 'Admin Dashboard',
     description:
-      'A responsive Admin Dashboard built with Pure HTML5 and CSS. It has a theme switcher that switches the background color with just a button.',
+      'A responsive Admin Dashboard built with Pure HTML5 and CSS. It has a theme switcher that switches the background colour with just a button.',
     technologies: ['Html5', 'Css', 'Javascript'],
     siteUrl: 'https://html-admin-dashboard-one.vercel.app/',
   },
@@ -109,7 +109,7 @@ const portfolios = [
     category: 'Wordpress',
     title: 'A Furniture Company Webiste',
     description:
-      'A responsive Wesbtie to showcase the companys information and projects. Built with Wordpress',
+      'A responsive Website to showcase the companys information and projects. Built with WordPress,
     technologies: ['Wordpress', 'Elementor Plugin'],
     siteUrl: 'https://anbmsolutions.com/',
   },

@@ -26,7 +26,7 @@ const portfolios = [
     category: 'React',
     title: 'Fitness Website',
     description:
-      'FitBody is a gym fit website where users can view their packages and get more information,
+      'FitBody is a gym fit website where users can view their packages and get more information',
     technologies: ['React', 'Css', 'Javascript', 'SwiperJS', 'Aos Animation'],
     siteUrl: 'https://fitbody-gym.vercel.app/',
   },
@@ -37,7 +37,7 @@ const portfolios = [
     category: 'Html',
     title: 'A Coffe Store Website',
     description:
-      'Tea Station is a responsive Website that delivers the best coffee. It lists all their services, products and contact information. All animations was developed with Vanilla Javascript',
+      'Tea Station is a responsive Website that delivers the best coffee. It lists all their services, products and contact information. All animations were developed with Vanilla Javascript',
     technologies: ['Html5', 'Css', 'Javascript'],
     siteUrl: 'https://dunprel-teastation.netlify.app/',
   },
@@ -113,7 +113,7 @@ const portfolios = [
       'A responsive Website to showcase the companys information and projects. Built with WordPress',
     technologies: ['Wordpress', 'Elementor Plugin'],
     siteUrl: 'https://anbmsolutions.com/',
-  },
+  }
 ]
 
 export default portfolios

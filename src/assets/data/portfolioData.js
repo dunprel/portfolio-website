@@ -17,8 +17,9 @@ const portfolios = [
     description:
       'A Responsive Car Renter is a platform where users can log on a search for their preferred choice of car to rent. It has a search engine.',
     technologies: ['React', 'Tailwind css', 'JavaScript'],
-    siteUrl: 'https://car-rental-dunprel.vercel.app/',
+    siteUrl: 'https://carrental-dunprel.vercel.app/',
   },
+  
   {
     id: '02',
     imgUrl: portfolioImg02,

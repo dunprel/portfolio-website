@@ -17,7 +17,7 @@ const portfolios = [
     description:
       'A Responsive Car Renter is a platform where users can log on a search for their preferred choice of car to rent. It has a search engine.',
     technologies: ['React', 'Tailwind css', 'JavaScript'],
-    siteUrl: 'https://carrental-dunprel.vercel.app/',
+    siteUrl: 'https://car-rental-dunprel.vercel.app/',
   },
   
   {
@@ -110,7 +110,7 @@ const portfolios = [
     category: 'Wordpress',
     title: 'A Furniture Company Webiste',
     description:
-      'A responsive Website to showcase the companys information and projects. Built with WordPress,
+      'A responsive Website to showcase the companys information and projects. Built with WordPress',
     technologies: ['Wordpress', 'Elementor Plugin'],
     siteUrl: 'https://anbmsolutions.com/',
   },

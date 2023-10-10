@@ -41,10 +41,11 @@ const Hero = () => {
               <span>
                 <i class='ri-apps-2-line'></i>
               </span>
-              I am a Full-stack Software Engineer. I am a self-motivated and results-oriented individual
-              with a knack for developing user-friendly and industry-standard
-              software. I have experience developing, maintaining, testing, and
-              debugging software applications.
+              I am a Full-stack Software Engineer. I am a self-motivated and
+              results-oriented individual with a knack for developing
+              user-friendly and industry-standard software. I have experience
+              developing, maintaining, testing, and debugging software
+              applications.
             </p>
 
             <div
@@ -106,7 +107,7 @@ const Hero = () => {
 
               <span>
                 <a
-                  href='https://drive.google.com/file/d/1ZcVeVQH7CYCOVi_PVIgsqEGr17PiEoNY/view?usp=share_link'
+                  href='https://drive.google.com/drive/u/0/my-drive'
                   target='_blank'
                   className='text-smallTextColor text-[18px] font-[600]'
                 >

@@ -41,8 +41,7 @@ const Hero = () => {
               <span>
                 <i class='ri-apps-2-line'></i>
               </span>
-              I am a Full-stack Software Engineer specializing in Front-end
-              Development. I am a self-motivated and results-oriented individual
+              I am a Full-stack Software Engineer. I am a self-motivated and results-oriented individual
               with a knack for developing user-friendly and industry-standard
               software. I have experience developing, maintaining, testing, and
               debugging software applications.

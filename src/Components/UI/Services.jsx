@@ -74,8 +74,8 @@ const Services = () => {
 
                         <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
                           I can convert any psd or Figma file into mobile or tab
-                          responsive web application. Capable of doing project
-                          in clean code.
+                          responsive web application using Javacripts frameworks
+                          like ReactJs, NextJs and also Pure HTML, CSS.
                         </p>
                       </div>
                     </div>
@@ -102,12 +102,14 @@ const Services = () => {
                         className='bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150'
                       >
                         <h3 className='text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl'>
-                          ReactJS Fronted Development
+                          Backend Development
                         </h3>
 
                         <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
-                          I have worked on 8 different React JS projcts. Also
-                          have a little working experience with Next JS.
+                          I have worked on some backend projects using NodeJs,
+                          ExpressJs, MongoDb, Sanity.io, Firebase. I am
+                          currently learning Python and Django for more
+                          effective backend solutions.
                         </p>
                       </div>
                     </div>
